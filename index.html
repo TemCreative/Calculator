@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div class="everything" style="border: thick solid #00203fff; background-color: #00203fff; height: 130.9mm; width: 72.1mm; border-radius: 20px; position: relative;  top: 50px;">
+            <h1 style="color: white;" >CASIO</h1>
+            <input id="result" type="text" placeholder="" style="height: 45px; width: 267px; background-color: white; border: thin solid #b9bdc8; padding-bottom: -19px; border-radius: 10px;">
+            <div  style="padding-top: 8px; padding-left: 10px;">
+                <button style="background-color: #b8bcc5; border: thin solid #b8bcc5; font-size: 10px;">abs</button>
+                <button style="background-color: #b8bcc5; border: thin solid #b8bcc5; font-size: 10px;">eng</button>
+                <button style="background-color: #b8bcc5; border: thin solid #b8bcc5; font-size: 10px;">m+</button>
+                <button style="height: 50px; width: 60px; border-radius: 10px;">START</button>
+                <button style="background-color: #b8bcc5; border: thin solid #b8bcc5; font-size: 10px;">opt</button>
+                <button style="background-color: #b8bcc5; border: thin solid #b8bcc5; font-size: 10px;">sto</button>
+                <button style="background-color: #b8bcc5; border: thin solid #b8bcc5; font-size: 10px;">sth</button>
+                <!-- <button style="background-color: #b8bcc5; border: thin solid #b8bcc5;">+</button>
+                <button style="background-color: #b8bcc5; border: thin solid #b8bcc5;">-</button> -->
+                <!-- <button style="background-color: #b8bcc5; border: thin solid #b8bcc5;">x</button>       
+                <button style="background-color: #b8bcc5; border: thin solid #b8bcc5;">/</button> -->
+            </div>
+            <div style="padding-top: 8px; padding-left: 2px; line-height: 3rem; ">
+                <button style="height: 35px; width: 35px;">F1</button>
+                <button style="height: 35px; width: 35px;">F2</button>
+                <button style="height: 35px; width: 35px;">F3</button>
+                <button style="height: 35px; width: 35px;">F4</button>
+                <button style="height: 35px; width: 35px;">F5</button>
+                <button style="height: 35px; width: 35px;">F6</button>
+                <button style="height: 35px; width: 35px; font-size: 10px; ">MNU</button>
+                <button style="height: 35px; width: 35px; font-size: 10px; ">ALU</button>
+                <button style="height: 35px; width: 35px;">x2</button>
+                <button style="height: 35px; width: 35px; font-size: 10px; ">VAS</button>
+                <button style="height: 35px; width: 35px; font-size: 10px; ">EXE</button>
+                <button style="height: 35px; width: 35px;">(-)</button>
+                <button style="height: 35px; width: 35px; font-size: 10px; ">(</button>
+                <button style="height: 35px; width: 35px;font-size: 10px; ">)</button>
+    
+                <button onclick="enterNo('7')" style="height: 35px; width: 35px;">7</button>
+                <button onclick="enterNo('8')" style="height: 35px; width: 35px;">8</button>
+                <button onclick="enterNo('9')" style="height: 35px; width: 35px;">9</button>
+                <button onclick="enterNo('log')"  style="height: 35px; width: 35px;">log</button>
+                <button onclick="enterNo('el')" style="height: 35px; width: 35px;">in</button>
+                <button onclick="enterNo('DEL')" style="height: 35px; width: 35px;">AEL</button>
+                <button onclick="clearAll('AC')" style="height: 35px; width: 35px;">AC</button>
+                <button onclick="enterNo('4')" style="height: 35px; width: 35px;">4</button>
+                <button  onclick="enterNo('5')" style="height: 35px; width: 35px;">5</button>
+                <button onclick="enterNo('6')" style="height: 35px; width: 35px;">6</button>
+                <button onclick="enterNo('sin')" style="height: 35px; width: 35px;">sin</button>
+                <button onclick="enterNo('cos')" style="height: 35px; width: 35px;">cos</button>
+                <button onclick="enterNo('*')" style="height: 35px; width: 35px;">*</button>
+                <button  onclick="enterNo('/')" style="height: 35px; width: 35px;">/</button>
+                <button onclick="enterNo('2')" style="height: 35px; width: 35px;">2</button>
+                <button onclick="enterNo('3')" style="height: 35px; width: 35px;">3</button>
+                <button onclick="enterNo('1')" style="height: 35px; width: 35px;">1</button>
+                <button onclick="enterNo('tan')" style="height: 35px; width: 35px;">tan</button>
+                <button onclick="enterNo('ab/c')" style="height: 35px; width: 35px;">ab/c</button>
+                <button onclick="enterNo('+')" style="height: 35px; width: 35px;" id="addition">+</button>
+                <button onclick="enterNo('-')" style="height: 35px; width: 35px;">-</button>
+                <button onclick="enterNo('0')" style="height: 35px; width: 35px;">0</button>
+                <button onclick="enterNo('.')" style="height: 35px; width: 35px;">.</button>
+                <button onclick="enterNo('x10')" style="height: 35px; width: 35px; font-size: 10px; ">x10</button>
+                <button onclick="enterNo('-')" style="height: 35px; width: 35px;">(</button>
+                <button onclick="enterNo('x11')" style="height: 35px; width: 35px;">x11</button>
+                <button onclick="enterNo('Ans')" style="height: 35px; width: 35px;">Ans</button>
+                <button onclick="solve()" style="height: 35px; width: 35px; ">=</button>
+            </div>
+        </div>
+        </center>
+</body>
+</html>

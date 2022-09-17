@@ -7,3 +7,6 @@ function clearAll(){
 function solve(){
     result.value = eval(result.value)
 }
+function onAll(){
+    result.value = "";
+}
